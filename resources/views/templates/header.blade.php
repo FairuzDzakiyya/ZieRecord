@@ -46,7 +46,7 @@
     <!-- Brand Logo -->
     <a href="{{asset('assets')}}//index3.html" class="brand-link">
       <img src="{{asset('assets')}}//dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">Beranda</span>
+      <span class="brand-text font-weight-light">Zie Record</span>
     </a>
 
     <!-- Sidebar -->
@@ -60,8 +60,6 @@
           <a href="#" class="d-block">calmara</a>
         </div>
       </div>
-
-      <!-- SidebarSearch Form -->
       <div class="form-inline">
         <div class="input-group" data-widget="sidebar-search">
           <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
@@ -72,14 +70,13 @@
           </div>
         </div>
       </div>
-
       <!-- Sidebar Menu -->
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item">
-          <a href="#" class="nav-link">
+          <a href="../home" class="nav-link">
             <i class="nav-icon fa-solid fa-grip"></i>
           <p>Dashboard</p>  
           </a>  
@@ -94,7 +91,7 @@
             </a>
           </li>     
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="../user" class="nav-link">
               <i class="nav-icon fa-solid fa-users"></i>
               <p>
                 Data User
@@ -104,7 +101,7 @@
           </li>     
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="nav-icon fa-solid fa-book-bookmark"></i>
+              <i class="nav-icon fa-solid fa-book"></i>
               <p>
                 Mata Pelajaran
                 <i class="right fas fa-angle-right"></i>
@@ -125,6 +122,33 @@
               <i class="nav-icon fa-solid fa-user-tie"></i>
               <p>
                 Data Wali Kelas
+                <i class="right fas fa-angle-right"></i>
+              </p>
+            </a>
+          </li>     
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa-solid fa-book-bookmark"></i>
+              <p>
+                Data Jurusan
+                <i class="right fas fa-angle-right"></i>
+              </p>
+            </a>
+          </li>     
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa-solid fa-chalkboard-user"></i>
+              <p>
+                Data Guru
+                <i class="right fas fa-angle-right"></i>
+              </p>
+            </a>
+          </li>     
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa-solid fa-user-graduate"></i>
+              <p>
+                Data Siswa
                 <i class="right fas fa-angle-right"></i>
               </p>
             </a>
