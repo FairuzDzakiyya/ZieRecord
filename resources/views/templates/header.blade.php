@@ -143,6 +143,14 @@
                 <i class="right fas fa-angle-right"></i>
               </p>
             </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="/home" class="nav-link">
+                  <i class="far fas fa-chalkboard-user"></i>
+                  <p>Dashboard v1</p>
+                </a>
+              </li>
+            </ul>
           </li>     
           <li class="nav-item">
             <a href="#" class="nav-link">
