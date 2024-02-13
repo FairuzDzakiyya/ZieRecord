@@ -15,11 +15,12 @@ return new class extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->id('id_operator');
+            $table->string('username');
             $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->rememberToken();
+            $table->enum('role',['siswa', 'guru']);
+            $table->enum('hak_akses',['walas', 'umum', 'bk', 'prod', 'siswa_kelas', 'siswa_km']);
             $table->timestamps();
         });
     }
